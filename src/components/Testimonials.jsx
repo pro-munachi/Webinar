@@ -31,21 +31,3 @@ export const Testimonial = () => {
     </div>
   );
 };
-
-// // Import the functions you need from the SDKs you need
-// import { initializeApp } from "firebase/app";
-// // TODO: Add SDKs for Firebase products that you want to use
-// // https://firebase.google.com/docs/web/setup#available-libraries
-
-// // Your web app's Firebase configuration
-// const firebaseConfig = {
-//   apiKey: "AIzaSyA6OlOMXwIqBt5W5qF8AAfQXmNLh-N4hUo",
-//   authDomain: "webinar-dfe08.firebaseapp.com",
-//   projectId: "webinar-dfe08",
-//   storageBucket: "webinar-dfe08.appspot.com",
-//   messagingSenderId: "658239488209",
-//   appId: "1:658239488209:web:7e0380063461c5145045f0"
-// };
-
-// // Initialize Firebase
-// const app = initializeApp(firebaseConfig);

@@ -17,7 +17,7 @@ function App() {
   const [loading, setLoading] = React.useState(false);
 
   const addTodo = async (e) => {
-    setLoading(true)
+    setLoading(true);
     e.preventDefault();
     try {
       await addDoc(collection(db, "users"), {
@@ -27,13 +27,11 @@ function App() {
         },
       });
 
-      setLoading(false)
-      setSubmitted(true)
-
+      setLoading(false);
+      setSubmitted(true);
     } catch (e) {
       console.error("Error adding document: ", e);
-      setLoading(false)
-
+      setLoading(false);
     }
   };
   return (
@@ -41,9 +39,9 @@ function App() {
       <Navbar />
 
       <div className="container">
+        <Header submitted={submitted} />
         {submitted ? (
           <>
-            <Header />
             <Actions />
           </>
         ) : (
@@ -74,7 +72,7 @@ function App() {
                 onClick={(e) => addTodo(e)}
                 disabled={!name || !email}
               >
-                {loading ? 'Submitting...' : 'Submit'}
+                {loading ? "Submitting..." : "Submit"}
               </button>
             </div>
           </>
