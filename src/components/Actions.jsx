@@ -14,7 +14,7 @@ export const Actions = () => {
           batch of TMA Exclusive Training
         </p>
         <p>
-          1. Click{" "}
+          2. Click{" "}
           <a href="https://wa.link/bpew30" rel="noreferrer" target="_blank">
             here
           </a>{" "}
@@ -22,7 +22,7 @@ export const Actions = () => {
           The Talent Maximization Academy.
         </p>
         <p>
-          1. Click{" "}
+          3. Click{" "}
           <a href="https://selar.co/1bcu" rel="noreferrer" target="_blank">
             here
           </a>{" "}
