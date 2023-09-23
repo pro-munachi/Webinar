@@ -10,7 +10,7 @@ export const Header = ({ submitted }) => {
           url="https://youtu.be/ATFXhBOGa1s?si=zAoJ8N30TyElh5R-"
         />
       ) : (
-        <img className="header-img" src="/images/oluchi-madu.jpg" />
+        <img className="header-img" src="/images/oluchi-madu.jpg" alt="Oluchi madu" />
       )}
     </div>
   );

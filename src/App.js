@@ -51,7 +51,7 @@ function App() {
             <Testimonial />
 
             <div className="form">
-              <h1>Fill this form to indicate interest</h1>
+              <h1>Take me to the webinar</h1>
               <input
                 className="form-input"
                 placeholder="Enter name"
